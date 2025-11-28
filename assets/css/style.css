@@ -328,11 +328,41 @@ li.logo span {
 
 /* Metrics */
 
+
 .metrics-main-div {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.metrics-number {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.metrics-label {
+  color: #e0e0e0;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.metrics-description {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
 
 .metrics-subtitle {
@@ -343,14 +373,6 @@ li.logo span {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.metrics-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  padding: 0 20px;
-  width: 100%;
 }
 
 .metrics-card {
@@ -374,26 +396,6 @@ li.logo span {
   transform: translateY(-5px);
 }
 
-.metrics-number {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1;
-  margin-bottom: 8px;
-}
-
-.metrics-label {
-  color: #e0e0e0;
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.metrics-description {
-  color: #b0b0b0;
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
 
 /* Cards */
 .card {
