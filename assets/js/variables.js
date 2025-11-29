@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const yearsProfessionalExp = "16+";
   const yearsTechLeadershipExp = "13+";
-  const developerAppCount = "47+";
+  const yearsSoftwareManagerExp = "2+";
+  
   const overallProjectCount = "45+";
+  const developerAppCount = "47+";
   const solutionsArchitectProjectCount = "15+";
   const technicalLeadProjectCount = "18+";
 
@@ -10,16 +12,21 @@ document.addEventListener("DOMContentLoaded", () => {
     el.textContent = yearsProfessionalExp;
   });
 
-   document.querySelectorAll(".years-tl-exp").forEach(el => {
+  document.querySelectorAll(".years-lead-exp").forEach(el => {
     el.textContent = yearsTechLeadershipExp;
   });
 
-   document.querySelectorAll(".projects-dev-count").forEach(el => {
-    el.textContent = developerAppCount;
+   document.querySelectorAll(".years-manager-exp").forEach(el => {
+    el.textContent = yearsSoftwareManagerExp;
   });
+
 
   document.querySelectorAll(".projects-overall-count").forEach(el => {
     el.textContent = overallProjectCount;
+  });
+
+  document.querySelectorAll(".projects-dev-count").forEach(el => {
+    el.textContent = developerAppCount;
   });
 
   document.querySelectorAll(".projects-sa-count").forEach(el => {
@@ -30,5 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
     el.textContent = technicalLeadProjectCount;
   });
 
- 
+
 });
