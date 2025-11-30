@@ -1,4 +1,4 @@
-/* Blue palette variables for easy tweaks */
+/* Color palette variables */
 :root {
   --color-white: #ffffff;
   --color-profile-border: #1e40a966; /* 66 is 40% opacity */
@@ -33,7 +33,6 @@ h6 b {
   font-weight: 700 !important;
 }
 
-
 /* Profile image */
 
 .profile-pic {
@@ -57,6 +56,7 @@ h6 b {
 /* Social icons */
 
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 .social {
   margin: 0 auto;
   width: auto;
@@ -147,7 +147,6 @@ body {
 
 .flow-text,
 .flow-text p,
-.card-content p,
 .container p {
   font-size: 15px !important;
   margin: 10px 0 !important;
@@ -400,8 +399,22 @@ li.logo span {
 }
 
 /* Cards */
+
 .card {
   margin-bottom: 60px;
+}
+
+.card .card-title {
+  font-size: 18px;
+}
+.card .card-content .card-title {
+  line-height: 1rem;
+}
+
+.card-content p {
+  font-size: 15px !important;
+  margin: 5px 0 !important;
+  line-height: 1.5 !important;
 }
 
 .card .role {
@@ -442,18 +455,6 @@ li.logo span {
   text-transform: uppercase;
 }
 
-#experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
-  border: none;
-}
-
-#experience .card .col.s12.m2 a {
-  display: block;
-}
-#experience .card .col.s12.m2 a img {
-  max-height: 60px;
-}
-
 .card-action span {
   font-size: 85%;
   color: var(--color-muted);
@@ -474,17 +475,21 @@ li.logo span {
   font-size: 13px;
 }
 
-.card .card-title {
-  font-size: 18px;
-}
-.card .card-content .card-title {
-  line-height: 2.5rem;
-}
 .card i.right {
   margin-left: 10px;
 }
 
+.card-reveal ul {
+  margin-top:5px; 
+}
+
+.card-reveal ul li {
+  margin-bottom: 0;
+  line-height: 1.2rem;
+}
+
 /* Hover underline */
+
 a.hoverline {
   border-bottom: 3px solid transparent !important;
   padding: 3px 3px 0 3px;
@@ -495,6 +500,16 @@ a.hoverline {
 
 a.hoverline:hover {
   border-bottom: 3px solid var(--color-button) !important;
+}
+
+span.hoverline {
+  color: inherit;
+  transition: 0.25s all;
+  display: inline-block;
+}
+
+span.hoverline:hover {
+  filter: brightness(1.8); /* makes it lighter */
 }
 
 /* Skills */
@@ -700,4 +715,32 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+}
+
+/* Section Specifics */
+
+#experience .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+}
+
+#experience .card .col.s12.m2 a {
+  display: block;
+}
+#experience .card .col.s12.m2 a img {
+  max-height: 60px;
+}
+
+#work .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#work .card-project {
+  flex: 1 1 360; /* grow, shrink, basis */
+  max-width: 360;
+}
+
+#work .card-action a.btn-floating {
+  margin-right: 6px;
 }

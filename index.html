@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
 
   <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" />
@@ -57,7 +57,7 @@
   <meta property="og:url" content="https://veanovenario.github.io/" />
   <meta property="og:site_name" content="Vea Novenario | Software Engineer Portfolio" />
   <meta property="article:publisher" content="https://veanovenario.github.io/" />
-  <meta property="og:image" content="https://veanovenario.github.io/examples/previewXXXXXX.JPG" />
+  <meta property="og:image" content="https://veanovenario.github.io/examples/preview.png" />
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
@@ -96,7 +96,7 @@
       <li class="logo">
         <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
           class="brand-logo grey-blue-text">
-          <img src="/assets/img/profile/profile.jpeg" class="circle img-responsive profile-pic" alt="avatar">
+          <img src="/assets/img/profile.jpeg" class="circle img-responsive profile-pic" alt="avatar">
         </a>
       </li>
 
@@ -115,6 +115,11 @@
       <li class="bold">
         <a aria-label="Navigate to the Featured Work section" href="#work" class="waves-effect waves-dark blue-text"><i
             class="mdi-av-my-library-books small"></i><span>Featured Work</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the More Projects section" href="#projects" class="waves-effect waves-dark blue-text"><i
+            class="mdi-action-assessment small"></i><span>More Projects</span></a>
       </li>
 
       <!--<li class="bold">
@@ -167,6 +172,12 @@
         <a aria-label="Navigate to the Featured Work section" href="#work" class="waves-effect waves-dark blue-text"><i
             class="mdi-av-my-library-books small"></i><span>Featured Work</span></a>
       </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the More Projects section" href="#projects" class="waves-effect waves-dark blue-text"><i
+            class="mdi-action-assessment small"></i><span>More Projects</span></a>
+      </li>
+      
       <!--<li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark blue-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
@@ -225,12 +236,12 @@
             <div class="social">
               <a href="http://linkedin.com/in/veanovenario" target="_blank">
                 <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
+                  <i class="fa-brands fa-linkedin"></i>
                 </button>
               </a>
               <a href="https://github.com/veanovenario/" target="_blank">
                 <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
+                  <i class="fa-brands fa-github"></i>
                 </button>
               </a>
             </div>
@@ -350,283 +361,586 @@
         <!-- Filters -->
         <div class="row">
           <div class="col s12 center-align">
-            <a href="#!" class="filter-btn chip blue white-text" data-filter="all">All</a>
-            <a href="#!" class="filter-btn chip" data-filter="dev">Software Engineer</a>
-            <a href="#!" class="filter-btn chip" data-filter="tl">Technical Lead</a>
-            <a href="#!" class="filter-btn chip" data-filter="sa">Solutions Architect</a>
+            <a href="#!" class="filter-btn chip blue white-text" data-filter="all"> [ All ]</a>
+            <a href="#!" class="filter-btn chip" data-filter="dev">[ Software Engineer ]</a>
+            <a href="#!" class="filter-btn chip" data-filter="tl">[ Technical Lead ]</a>
+            <a href="#!" class="filter-btn chip" data-filter="sa">[ Solutions Architect ]</a>
           </div>
         </div>
 
         <!-- Cards -->
         <div class="row">
 
+          <!-- Template -->
+          <!--<div class="col s12 m6 l4 card-project" data-category="dev,tl,sa">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="" src="/assets/img/projects/project-XXXXX.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator blue-text hoverline">XXXXX<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  XXXXX
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">XXXXX<i class="mdi-navigation-close right"></i></span>
+                  XXXXX
+                <ul>
+                  <li><i class="fa-brands fa-apple"></i> iOS App</li>
+                  <li><i class="fa-brands fa-android"></i> Android App</li>
+                  <li><i class="fa-brands fa-react"></i> iOS and Android apps</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="XXXXX"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        
+          <!-- MONIDOOR -->
           <div class="col s12 m6 l4 card-project" data-category="dev,tl,sa">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/projects/project-hoolah.png"
-                  style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+                <img alt="" src="/assets/img/projects/project-monidoor.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Music Player Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator blue-text hoverline">MONIDOOR<i class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A music streaming web app based on Django
+                  A desktop HMI application for real-time monitoring and control of Platform Screen Doors used in railway transit systems.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <!-- X button only--><!--<span class="card-title grey-text"><i class="mdi-navigation-close right"></i></span>-->
+                <span class="card-title brown-text">MONIDOOR<i class="mdi-navigation-close right"></i></span>
+                A full-featured desktop Human-Machine Interface built for the real-time monitoring, diagnostics, and control of Platform
+                Screen Door systems. It provides operators with clear visual status, live data, and alarms views, enabling fast
+                decision-making during operations and maintenance. The application integrates with PLCs and DCUs and is designed for
+                reliability in rail environments.
                 <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Search and filter songs based on language and singer.</li>
-                  <li>Create multiple playlists and add/remove songs to/from playlist.</li>
-                  <li>Scroll through recently played/viewed songs.</li>
-
-
+                  <li><i class="fa-solid fa-desktop"></i> Desktop (Windows IPC)</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank"
-                    data-position="top" data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://www.stengg.com/getmedia/8367ff9b-8f99-4e60-936a-edd0b340d628/agil-platform-screen-door.pdf"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://www.stengg.com/en/innovation/innovation-stories/platform-screen-doors-maintenance-with-ai"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col s12 m6 l4 card-project" data-category="dev">
+        
+          <!-- MONIDOOR Lite -->
+          <div class="col s12 m6 l4 card-project" data-category="dev,tl,sa">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/projects/project-monidoor.png"
-                  style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+                <img alt="" src="/assets/img/projects/project-monidoorlite.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Quiz Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator blue-text hoverline">MONIDOOR Lite<i class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A quiz playing web app based on Django
+                  A portable version of the MONIDOOR maintenance tool, used for configuring, testing, firmware flashing, and diagnosing Platform Screen Door controllers.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <span class="card-title brown-text">MONIDOOR Lite<i class="mdi-navigation-close right"></i></span>
+                A lightweight Portable Test Equipment (PTE) tool built for maintenance personnel working directly with
+                Platform Screen Door control units. It enables configuration changes, parameter updates, firmware flashing, and
+                diagnostic testing through standard field interfaces.
                 <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Play Quiz and see the leaderboard</li>
-
+                  <li><i class="fa-solid fa-desktop"></i> Desktop (Windows Laptop)</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://www.stengg.com/en/smart-city/urban-solutions/smart-mobility-rail/smart-metro-systems/platform-screen-door/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4 card-project" data-category="tl">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/project-blog-logo.jpg"
-                  style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Blog Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A simple and extensible blog web-app based on Flask.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title blue-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python</li>
-                  <li>Users can view posts and contact the admin via Contact Page.</li>
-                  <li>Admin can Add, Delete, Update posts.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank"
-                    data-position="top" data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
+          <!-- Dynasty Travel and Tora-Q -->
           <div class="col s12 m6 l4 card-project" data-category="sa">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/project-aim_bert-bias.png"
-                  style="height: 100%; width: 100%" class="activator" />
+                <img alt="" src="/assets/img/projects/project-dynastytravel.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Visual Question Answering<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator blue-text hoverline">Dynasty Travel<i class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An attention-based classification model that aims at generating an answer for a given input image.
+                  Delivers curated tours and personalised travel experiences through an integrated system consisting a modern website, mobile itinerary apps, and a unified CMS.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title blue-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <span class="card-title brown-text">Dynasty Travel<i class="mdi-navigation-close right"></i></span>
+                  A system that allows travel operators to publish destinations and packages on the web, while customers use the mobile
+                  app to browse, book, and manage their travel plans. The CMS streamlines content updates, bookings, and user management,
+                  ensuring the entire travel ecosystem remains integrated and consistent.
                 <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-                  <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li>
-
+                  <li><i class="fa-brands fa-react"></i> iOS and Android Apps</li>
+                  <li><i class="fa-solid fa-globe"></i> Website</li>
+                  <li><i class="fa-solid fa-laptop"></i> Tora-Q CMS</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://dynastytravel.com.sg/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Video Summarizer -->
-          <div class="col s12 m6 l4 card-project" data-category="mobile">
+          <!-- Yummy Bros -->
+          <div class="col s12 m6 l4 card-project" data-category="sa">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/computer-vision-v2-04.png"
-                  style="height: 100%; width: 100%" class="activator" />
+                <img alt="" src="/assets/img/projects/project-yummybros.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Video Summarizer<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator blue-text hoverline">Yummy Bros<i class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A Seq2Seq model that generates a short summary of the given input video.
+                  A web ordering platform for customizing and purchasing healthy meal-prep dishes.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <span class="card-title brown-text">Yummy Bros<i class="mdi-navigation-close right"></i></span>
+                  The system lets customers browse meals, adjust portions and macros, and place orders seamlessly. It includes a backend that manages nutrition data, meal configurations, and order workflows. The platform supports a fast, convenient end-to-end experience from selection to checkout.
                 <ul>
-                  <li>Incorporated CNN to detect and classify objects in the video frames and Long Short Term Memory for
-                    generating a summary.</li>
-                  <li>Evaluated the model on MSVD (Microsoft Video Description Corpus) dataset; achieved 0.77, 0.71,
-                    0.52 scores respectively on ROGUE,
-                    BLEU, METEOR evaluation metrics.</li>
-
+                  <li><i class="fa-solid fa-globe"></i> Website</li>
+                  <li><i class="fa-solid fa-laptop"></i> CMS</li>
                 </ul>
-                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://www.yummybros.com/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Image Generator -->
-          <div class="col s12 m6 l4 card-project" data-category="mobile">
+          <!-- hoolah -->
+          <div class="col s12 m6 l4 card-project" data-category="sa">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%"
-                  class="activator" />
+                <img alt="" src="/assets/img/projects/project-hoolah.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Image Generator<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator blue-text hoverline">hoolah<i class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An image generator based on the concept of adversarial networks (GANs)
+                  An app that makes shopping easier by allowing users to split purchases into three interest-free instalments with a seamless buy-now-pay-later backend service.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <span class="card-title brown-text">hoolah<i class="mdi-navigation-close right"></i></span>
+                  An app that enables shoppers to split online purchases into three equal payments over two months with zero interest. It works across many retailers, from fashion to electronics, making expensive buys more affordable. The app tracks instalments, payment schedules, and order details for a smooth, transparent payment experience. The company was later acquired by ShopBack in 2021. 
                 <ul>
-                  <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
-                    of generated and original image.</li>
-                  <li>Calculated difference in PCA was less than 10%, depicting the successful generation of an image by
-                    the generator.</li>
-
+                  <li><i class="fa-brands fa-react"></i> iOS and Android Apps</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://hoolah.co/hoolah-is-shopback/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://fintechnews.sg/tag/hoolah/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- CapitaStar LINE FRIENDS Passport -->
+          <div class="col s12 m6 l4 card-project" data-category="dev,tl,sa">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="" src="/assets/img/projects/project-capitastarpassport.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator blue-text hoverline">CapitaStar LINE FRIENDS Passport<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A festive in-app Digital Passport game that let shoppers collect virtual stamps and unlock holiday rewards across CapitaLand malls.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">CapitaStar LINE FRIENDS Passport<i class="mdi-navigation-close right"></i></span>
+                  A holiday game where shoppers collected virtual stamps through activities across participating CapitaLand malls. The experience allowed users to complete a digital passport inside the CapitaStar app and earn chances for exclusive festive rewards. Designed for the Christmas 2019 season, LINE FRIENDS World Tour campaign.
+                <ul>
+                  <li><i class="fa-brands fa-apple"></i> <i class="fa-brands fa-android"></i> iOS and Android SDKs</li>
+                  <li><i class="fa-solid fa-globe"></i> In-App Web App</li>
+                  <li><i class="fa-solid fa-desktop"></i> CMS</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://www.facebook.com/PlazaSingapura/posts/do-you-dream-of-travelling-the-worldfuel-your-wanderlust-by-completing-your-line/2506164586119318"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://girlstyle.com/sg/article/45830/the-cutest-line-friends-world-tour-exhibition-is-coming-to-singapore"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                  <a aria-label="Visit on App Store" data-tooltip="Visit on App Store" target="_blank" data-position="top"
+                    href="https://apps.apple.com/sg/app/capitastar-app/id1058746494"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-apple"></i>
+                  </a>
+                  <a aria-label="Visit on Google Play" data-tooltip="Visit on Google Play" target="_blank" data-position="top"
+                    href="https://play.google.com/store/apps/details?id=com.capitamallsasia.capitastar"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-android"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- CapitaStar Ka-Ching! STAR$ -->
+          <div class="col s12 m6 l4 card-project" data-category="dev,tl">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="" src="/assets/img/projects/project-capitastarkachingstars.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator blue-text hoverline">CapitaStar Ka-Ching! STAR$<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Christmas Ka-Ching! STAR$ game that rewarded users with bonus STAR$ during CapitaLand’s holiday season.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">CapitaStar Ka-Ching! STAR$<i class="mdi-navigation-close right"></i></span>
+                  A Christmas-themed in-app game inside the CapitaStar app, offering players the chance to earn bonus STAR$ as part of CapitaLand’s year-end celebrations. Launched during the “12 Days of Christmas” 2018 campaign, it gave shoppers a festive mini-game experience where each play contributed to unlocking additional STAR$ rewards.
+                <ul>
+                  <li><i class="fa-brands fa-apple"></i><i class="fa-brands fa-android"></i> iOS and Android SDKs</li>
+                  <li><i class="fa-solid fa-globe"></i> In-App Web App</li>
+                  <li><i class="fa-solid fa-desktop"></i> CMS</li>
+                </ul>
+                <div class="card-action">
+                   <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://www.facebook.com/watch/?v=266601317363846"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                  <a aria-label="Visit on App Store" data-tooltip="Visit on App Store" target="_blank" data-position="top"
+                    href="https://apps.apple.com/sg/app/capitastar-app/id1058746494"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-apple"></i>
+                  </a>
+                  <a aria-label="Visit on Google Play" data-tooltip="Visit on Google Play" target="_blank" data-position="top"
+                    href="https://play.google.com/store/apps/details?id=com.capitamallsasia.capitastar"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-android"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Head Counting System -->
-          <div class="col s12 m6 l4 card-project" data-category="mobile">
+          <!-- Maxi-Cash -->
+          <div class="col s12 m6 l4 card-project" data-category="dev,tl,sa">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app"
-                  src="/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg"
-                  style="height: 100%; width: 100%" class="activator" />
+                <img alt="" src="/assets/img/projects/project-maxicash.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Head Counting System<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator blue-text hoverline">Maxi-Cash<i class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A system that calculates the attendance of the class from a panoramic image of a live classroom.
+                  App that let users renew pawn tickets, make interest payments, and instalment payments.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <span class="card-title brown-text">Maxi-Cash<i class="mdi-navigation-close right"></i></span>
+                  Version 2 of the app introduced a fast and convenient way for customers to renew pawn tickets and pay loan interest directly from their phones. Built for simplicity and efficiency, it streamlined key financial transactions within the Maxi-Cash ecosystem.
                 <ul>
-                  <li>Used Singular Value Decomposition for image compression; applied various image processing
-                    techniques and morphological operations to
-                    detect the number of heads.</li>
-
+                  <li><i class="fa-brands fa-apple"></i> iOS App</li>
+                  <li><i class="fa-brands fa-android"></i> Android App</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <a aria-label="Visit on App Store" data-tooltip="Visit on App Store" target="_blank" data-position="top"
+                    href="https://apps.apple.com/sg/app/maxi-cash/id1397345953"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-apple"></i>
+                  </a>
+                  <a aria-label="Visit on Google Play" data-tooltip="Visit on Google Play" target="_blank" data-position="top"
+                    href="https://play.google.com/store/apps/details?id=com.MaxiCash.ipayment"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-android"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Winner21 -->
+          <div class="col s12 m6 l4 card-project" data-category="dev,tl">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="" src="/assets/img/projects/project-winner21.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator blue-text hoverline">Winner21<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A comprehensive horse-racing information app and platform delivering global race data, analytics and post-race content across multiple jurisdictions.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">Winner21<i class="mdi-navigation-close right"></i></span>
+                  An app that delivers horse-racing information across regions including Singapore, Hong Kong, Australia, and South Africa. The platform provides race cards, results, past-race videos, and a computerized horse-picking algorithm. It offers a convenient way for users to access global racing data and analytics.
+                <ul>
+                  <li><i class="fa-brands fa-apple"></i> iOS App</li>
+                  <li><i class="fa-brands fa-android"></i> Android App</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://www.winner21.com/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                  <a aria-label="Visit on App Store" data-tooltip="Visit on App Store" target="_blank" data-position="top"
+                    href="https://apps.apple.com/sg/app/winner21-%E8%B5%A2%E5%AE%B6/id725323298"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-apple"></i>
+                  </a>
+                  <a aria-label="Visit on Google Play" data-tooltip="Visit on Google Play" target="_blank" data-position="top"
+                    href="https://play.google.com/store/apps/details?id=com.pnlgroup.winner21"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-android"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CapitaStar Disney Tsum Tsum  -->
+          <div class="col s12 m6 l4 card-project" data-category="dev">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="" src="/assets/img/projects/project-company-mi.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator blue-text hoverline">CapitaStar Disney Tsum Tsum<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  An in-app Disney Tsum Tsum game experience built for the CapitaStar app, featuring missions, rewards, and interactive mall activities.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">CapitaStar Disney Tsum Tsum<i class="mdi-navigation-close right"></i></span>
+                  The Disney Tsum Tsum campaign introduced a playful, mission-based game inside the CapitaStar mobile app, turning mall visits into a character-themed adventure. The experience let users complete tasks, earn STAR$ rewards, and unlock Tsum Tsum-themed interactions as they explored participating malls.
+                <ul>
+                  <li><i class="fa-brands fa-apple"></i><i class="fa-brands fa-android"></i> iOS and Android SDKs</li>
+                  <li><i class="fa-solid fa-globe"></i> In-App Web App</li>
+                  <li><i class="fa-solid fa-desktop"></i> CMS</li>
+                </ul>
+                <div class="card-action">
+                   <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://tickikids.com/sg/plaza-singapura/live-out-your-tsum-sational-adventure-at-capitaland-malls/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
+                  <a aria-label="Visit on App Store" data-tooltip="Visit on App Store" target="_blank" data-position="top"
+                    href="https://apps.apple.com/sg/app/capitastar-app/id1058746494"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-apple"></i>
+                  </a>
+                  <a aria-label="Visit on Google Play" data-tooltip="Visit on Google Play" target="_blank" data-position="top"
+                    href="https://play.google.com/store/apps/details?id=com.capitamallsasia.capitastar"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-brands fa-android"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Innokid -->
+          <div class="col s12 m6 l4 card-project" data-category="dev,tl">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="" src="/assets/img/projects/project-innokid.png" style="width: 100%; height: auto; object-fit: contain;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator blue-text hoverline">Innokid<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A mobile app created to inspire imagination, build critical-thinking skills, and nurture a child’s creativity in a fun and innovative way.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">Innokid<i class="mdi-navigation-close right"></i></span>
+                  Innokid is a creativity and STEM-focused app that encourages children aged 4–10 to explore ideas through engaging questions and playful challenges they can try at home. Kids can share their responses, discover how others think, and learn in a safe, inspiring environment that nurtures curiosity.
+                <ul>
+                  <li><i class="fa-brands fa-apple"></i> iOS App</li>
+                  <li><i class="fa-brands fa-android"></i> Android App</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Online" data-tooltip="Visit Online" target="_blank" data-position="top"
+                    href="https://innokid.com/"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa-solid fa-external-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
         </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: More Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text blue">More Projects</h3>
+      <div class="container">
+
+        <div class="card">
+          <div class="card-content">
+            <!--<h4 class="brown-text light">Projects</h4>-->
+            <div class="row text-center">
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-nexus.png" class="responsive-img" />Nexus
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-teamaxis.png" class="responsive-img" />Team-Axis
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-merci.png" class="responsive-img" />Merci
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-royalcaribbean.png" class="responsive-img" />Royal Caribbean Campaign
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <!--<h4 class="brown-text light">Projects</h4>-->
+            <div class="row text-center">
+    
+              
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-capitastarkachingcoins.png" class="responsive-img" />Ka-Ching! COINS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-cag.png" class="responsive-img" />Changi Airport Tour
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-bam.png" class="responsive-img" />BAM!
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-adzzer.png" class="responsive-img" />Adzzer
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-chanbrothers.png" class="responsive-img" />Chan Brothers
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-meijihellopanda.png" class="responsive-img" />Meiji Hello Panda 
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-getfash.png" class="responsive-img" />Getfash
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-berewarded.png" class="responsive-img" />BE Rewarded
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-pap4sg.png" class="responsive-img" />PAP4SG
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-kanguruph.png" class="responsive-img" />Kanguru PH
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-selecssion.png" class="responsive-img" />Selecssion
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-avendr.png" class="responsive-img" />Avendr
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-ibapc.png" class="responsive-img" />International Baccalaureate Asia Pacific Conference
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-aub.png" class="responsive-img" />Asia United Bank Mobile Internet Banking
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-shopwise.png" class="responsive-img" />Shopwise Shopping Buddy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-bdo.png" class="responsive-img" />BDO Deal Finder
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <!--<h4 class="brown-text light">Projects</h4>-->
+            <div class="row text-center">
+ 
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-edwardsperimount.png" class="responsive-img" />Edwards Valve
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-edwardstraining.png" class="responsive-img" />Edwards Training
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-4fingers.png" class="responsive-img" />4Fingers  Ops & Training
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-sttelmobile.png" class="responsive-img" />ST TEL Mobile
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-mylittleadventures.png" class="responsive-img" />My Little Adventures
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-ihenyo.png" class="responsive-img" />iHenyo
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-fotobooth.png" class="responsive-img" />Fotobooth
+              </div>
+   
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <!--<h4 class="brown-text light">Projects</h4>-->
+            <div class="row text-center">
+    
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-sss.png" class="responsive-img" />SSS Tellering System
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-meralco.png" class="responsive-img" />Meralco Intranet Portal
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/projects-others/project-enjoyph.png" class="responsive-img" />EnjoyPH
+              </div>
+   
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -761,33 +1075,22 @@
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text blue">Contact</h3>
       <div class="container">
-        <!--<p>
-          <a aria-label="Call Vea" data-position="top" data-tooltip="Call Vea"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Vea">+65 XXXXXXXX</a></a>
-        </p>-->
         <p>
           <a aria-label="Email Vea" href="mailto:veanovenario.tech@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Vea" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Vea" href="mailto:veanovenario.tech@gmail.com"
+            data-tooltip="Email Vea" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa-solid fa-envelope"></i><a aria-label="Email Vea" href="mailto:veanovenario.tech@gmail.com"
               class="hoverline">veanovenario.tech@gmail.com</a></a>
         </p>
-        <!--<p>
-          <a aria-label="View Vea on GitHub" href="http://github.com/veanovenario" target="_blank"
-            data-position="top" data-tooltip="View Vea on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Vea on Github" href="http://github.com/veanovenario" class="hoverline"
-              target="_blank">github.com/veanovenario</a></a>
-        </p>-->
         <p>
           <a aria-label="View Vea on LinkedIn" href="http://linkedin.com/in/veanovenario" target="_blank"
             data-position="top" data-tooltip="View Vea on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Vea on LinkedIn" href="http://linkedin.com/in/veanovenario"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa-brands fa-linkedin"></i><a aria-label="Vea on LinkedIn" href="http://linkedin.com/in/veanovenario"
               class="hoverline" target="_blank">linkedin.com/in/veanovenario</a></a>
         </p>
       </div>
     </section>
+
   </main>
 
   <!-- Scripts -->
@@ -803,8 +1106,7 @@
         "Solutions Architect",
         "Mobile App Developer",
         "Desktop App Developer",
-        "Platform Screen Door Software Specialist",
-        "Innovator"
+        "Platform Screen Door Software Specialist"
       ],
       loop: true,
       typeSpeed: 80,
