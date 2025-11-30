@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const yearsTechLeadershipExp = "13+";
   const yearsSoftwareManagerExp = "2+";
   
-  const overallProjectCount = "45+";
-  const developerAppCount = "47+";
-  const solutionsArchitectProjectCount = "15+";
-  const technicalLeadProjectCount = "18+";
+  const overallProjectCount = "47+";
+  const developerAppCount = "46+";
+  const solutionsArchitectProjectCount = "13+";
+  const technicalLeadProjectCount = "17+";
 
   document.querySelectorAll(".years-pro-exp").forEach(el => {
     el.textContent = yearsProfessionalExp;
