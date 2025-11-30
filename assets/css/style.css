@@ -737,8 +737,8 @@ small {
 }
 
 #work .card-project {
-  flex: 1 1 350px; /* grow, shrink, basis */
-  max-width: 350px;
+  flex: 1 1 360; /* grow, shrink, basis */
+  max-width: 360;
 }
 
 #work .card-action a.btn-floating {

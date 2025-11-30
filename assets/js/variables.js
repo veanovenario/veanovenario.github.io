@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const yearsTechLeadershipExp = "13+";
   const yearsSoftwareManagerExp = "2+";
   
-  const overallProjectCount = "47+";
-  const developerAppCount = "46+";
+  const overallProjectCount = "48+";
+  const developerAppCount = "47+";
   const solutionsArchitectProjectCount = "13+";
   const technicalLeadProjectCount = "17+";
 
