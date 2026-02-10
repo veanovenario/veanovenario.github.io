@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
   const overallProjectCount = "48+";
   const developerAppCount = "47+";
+  const iOSAppCount = "33+";
+  const androidAppCount = "6+";
   const solutionsArchitectProjectCount = "13+";
   const technicalLeadProjectCount = "17+";
 
@@ -27,6 +29,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll(".projects-dev-count").forEach(el => {
     el.textContent = developerAppCount;
+  });
+
+  document.querySelectorAll(".projects-dev-count").forEach(el => {
+    el.textContent = developerAppCount;
+  });
+
+  document.querySelectorAll(".projects-ios-count").forEach(el => {
+    el.textContent = iOSAppCount;
+  });
+
+  document.querySelectorAll(".projects-android-count").forEach(el => {
+    el.textContent = androidAppCount;
   });
 
   document.querySelectorAll(".projects-sa-count").forEach(el => {
