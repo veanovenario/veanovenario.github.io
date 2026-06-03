@@ -634,7 +634,7 @@ small {
   .container {
     margin: 0 auto;
   }
-  nav.hide-on-large.only.trigger {
+  nav.hide-on-large-only.trigger {
     display: block;
     position: fixed;
     top: 0;
@@ -677,7 +677,19 @@ small {
 }
 
 @media (max-width: 600px) {
-  
+
+  #intro.section .blue {
+    background-color: transparent !important;
+    color: var(--color-white) !important;
+    font-weight: 700;
+    padding: 0;
+  }
+
+  #intro h6 {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
   h2 {
     font-size: 22px;
     line-height: 200%;
